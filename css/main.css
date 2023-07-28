@@ -1,0 +1,46 @@
+body{
+    background-color: brown;
+}
+.block{
+    color: white;
+    border: 10px solid white; /*solid,dotted,double,groove,ridge,inset,outset*/
+    /*border-width: 1px;*/
+    /*border-top-width: 5px;
+    border-right-width: 12px;
+    border-left-width: 15px;
+    border-bottom-width: 8px;*/
+    /*border-style: solid;*/
+    /*border-top-style: dotted;
+    border-right-style: double;
+    border-bottom-style: dashed;
+    border-left-style: solid;*/
+    /*border-color: white;*/
+    /*border-top-color: red;
+    border-bottom-color: black;
+    border-right-color: white;
+    border-left-color: aqua;*/
+    border-radius: 20px;
+    text-align: left; /* left(default code),center,right,justify  */
+    text-decoration: none;
+    text-transform: capitalize;
+    letter-spacing: 10px;
+    word-spacing: 15px;
+    line-height: 20px;
+}
+.text-block{
+    background-color: white;
+    width: 500px;
+    height: 200px;
+    /*margin: 150px 30px 20px 500px;*/
+   /* margin-top: 50px;
+    margin-bottom: 20px;
+    margin-left: 30px;
+    margin-right: 100px;*/
+    margin: 100px auto;
+   /* padding: 50px 30px 20px 100px;*/
+    padding-top: 50px;
+    padding-right: 30px;
+    padding-left: 100px;
+    padding-bottom: 20px;
+    box-sizing: border-box;
+}
